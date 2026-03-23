@@ -35,6 +35,7 @@ public class MainCode : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            Debug.Log("Hi");
             playerRigidbody.AddForce(playerTransform.up * throwForce, ForceMode2D.Impulse);
         }
 
