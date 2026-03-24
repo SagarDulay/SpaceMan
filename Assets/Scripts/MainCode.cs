@@ -39,6 +39,7 @@ public class MainCode : MonoBehaviour
             playerRigidbody.AddForce(playerTransform.up * throwForce, ForceMode2D.Impulse);
         }
 
+        
 
       
 
