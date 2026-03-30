@@ -179,9 +179,9 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0, g: 0.11372549, b: 0, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_NormalColor: {r: 0, g: 0.11372549, b: 0, a: 0.65882355}
+    m_HighlightedColor: {r: 0.31764707, g: 0.59607846, b: 0.26666668, a: 0.69411767}
+    m_PressedColor: {r: 0, g: 0, b: 0, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -235,7 +235,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -699,15 +699,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Eject into Space Here
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 24cd84cc323b804468bcafcb74918b8c, type: 2}
+  m_sharedMaterial: {fileID: -3439913105419667688, guid: 24cd84cc323b804468bcafcb74918b8c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278255448
+  m_fontColor: {r: 0.34509805, g: 1, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -724,8 +724,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 39.01
-  m_fontSizeBase: 39.01
+  m_fontSize: 35.35
+  m_fontSizeBase: 35.35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -734,7 +734,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 1.51
+  m_characterSpacing: 17.5
   m_characterHorizontalScale: 1
   m_wordSpacing: -15.44
   m_lineSpacing: 0
@@ -811,8 +811,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.7261, y: 261.86}
-  m_SizeDelta: {x: 1503.0759, y: 190.96}
+  m_AnchoredPosition: {x: -8.7261, y: 281.7744}
+  m_SizeDelta: {x: 1503.0759, y: 230.7889}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1481567289
 MonoBehaviour:
@@ -834,17 +834,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SpaceMan
+  m_text: S P A C E M A N
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 24cd84cc323b804468bcafcb74918b8c, type: 2}
+  m_sharedMaterial: {fileID: -3439913105419667688, guid: 24cd84cc323b804468bcafcb74918b8c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278255448
+  m_fontColor: {r: 0.34509805, g: 1, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -861,19 +861,19 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 73.3
-  m_fontSizeBase: 73.3
+  m_fontSize: 94.35
+  m_fontSizeBase: 94.35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 26.6
-  m_characterHorizontalScale: 1
-  m_wordSpacing: 0
+  m_characterSpacing: 7.87
+  m_characterHorizontalScale: 1.4
+  m_wordSpacing: -0.33
   m_lineSpacing: 0
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
