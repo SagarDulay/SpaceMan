@@ -3,17 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class SceneTransition : MonoBehaviour
 {
-    
-    void Start()
-    {
-        
-    }
-
-   
-    void Update()
-    {
-        
-    }
 
     public void LoadGameplayScene()
     {

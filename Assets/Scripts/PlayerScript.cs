@@ -7,6 +7,7 @@ public class MainCode : MonoBehaviour
     [SerializeField] Transform groundCheck;
     [SerializeField] float groundRadius = 0.2f;
     [SerializeField] LayerMask groundLayer;
+    [SerializeField] private Animator playerAnimator;
     
     public Rigidbody2D playerRigidbody;
     public int throwForce;
@@ -66,6 +67,8 @@ public class MainCode : MonoBehaviour
                 playerRigidbody.position = pos;
             }
         }
+
+    
     }
 
     void OnTriggerEnter2D(Collider2D other)
